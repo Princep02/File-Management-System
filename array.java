@@ -133,24 +133,91 @@ public class array {
 // System.out.println("");
 
 //Delete an element
-int A[]=new int[6];
-A[0]=5;A[1]=9;A[2]=6;A[3]=10;A[4]=12;A[5]=6;
-int n=6;
-for(int i=0;i<n;i++)
-System.out.print(A[i]+",");
-System.out.println("");
-int index=2;
+// int A[]=new int[10];
+// A[0]=5;A[1]=9;A[2]=6;A[3]=10;A[4]=12;A[5]=6;
+// int n=6;
+// for(int i=0;i<n;i++)
+// System.out.print(A[i]+",");
+// System.out.println("");
+// int index=2;
 
-int i=0;
-while(i<6){
-    if(i>=2)
-      A[i]=A[i+1];
+// int i=0;
+// while(i<6){
+//     if(i>=2)
+//       A[i]=A[i+1];
 
-      i++;
+//       i++;
+// }
+// for( i=0;i<n-1;i++)
+// System.out.print(A[i]+",");
+
+//two dimensional array
+// int A[][]=new int[5][5];
+// int B[][]={{1,2,3},{2,4,6},{1,3,5}};
+// int C[][];
+// C=new int[5][5];
+// for(int i=0;i<B.length;i++){
+//     for(int j=0;j<B[0].length;j++){
+// System.out.print(B[i][j]+" ");
+// }
+// System.out.println("");
+// }
+// int A[][];
+// A=new int[3][];
+// A[0]=new int[5];
+// A[1]=new int[3];
+// A[2]=new int[8];
+// for(int i=0;i<A[i].length;i++){
+//     for(int j=0;j<A[i].length;j++){
+//         System.out.println(A[i][j]+" ");
+//     }
+//     System.out.println("");
+// }
+
+//Adding two dimensional arrays
+// int A[][]={{3,5,9},{7,6,2},{4,3,5}};
+// int B[][]={{1,5,2},{6,8,4},{3,9,7}};
+
+// int C[][]=new int[3][3];
+// for(int i=0;i<A[0].length;i++){
+//     for(int j=0;j<A[0].length;j++){
+//         C[i][j]=A[i][j]+B[i][j];
+//     }
+// }
+// for(int x[]:C){
+//     for(int y:x){
+//         System.out.println(y+" ");
+//     }
+//     System.out.println("");
+// }
+
+//Multiplying 2 matrices
+// int A[][]={{3,5,9},{7,6,2},{4,3,5}};
+// int B[][]={{1,0,0},{0,1,0},{0,0,1}};
+
+// int C[][]=new int[3][3];
+// for(int i=0;i<3;i++){
+//     for(int j=0;j<3;j++){
+//         C[i][j]=0;
+//         for(int k=0;k<3;k++){
+//             C[i][j]=C[i][j]+A[i][k]*B[k][j];
+//         }
+//     }
+// }
+// for(int x[]:C){
+//     for(int y:x){
+//         System.out.print(y+" ");
+//     }
+//     System.out.println("");
+// }
+
+//Sorting an array
+// String arr[]={"prince","gautam","aman","aditya"};
+// java.util.Arrays.sort(arr);
+// for(String x:arr){
+//     System.out.println(x);
+// }
 }
-for( i=0;i<n-1;i++)
-System.out.print(A[i]+",");
- }
 }
     
 
