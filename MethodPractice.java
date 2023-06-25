@@ -33,7 +33,6 @@ public class MethodPractice{
 //     System.out.println(x);
 // }
 // }
-
-
 }
+
 
